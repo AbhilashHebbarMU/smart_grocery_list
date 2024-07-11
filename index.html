@@ -1,0 +1,196 @@
+<html>
+<head>
+<title>Any-List</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<section class="header">
+<div class="container">
+   <img src="images/hero_logo.png">
+   <a href="sub.html"><button" class="login-btn">Login</button></a>
+</div>   
+<h1>Make any food you love</h1>
+<p>People who love to eat are always the best people </p>
+<div class="input-group">
+<input type="text" class="form-control" id="keywordInput" placeholder="Search your love food">
+<div class="input-group-append">
+    <button type="submit" class="input-group-text btn" onclick="redirectToPage()"><h6>Search</h6></button>    
+    </div>
+
+  <script>
+    function redirectToPage() {
+      var keyword = document.getElementById("keywordInput").value.trim().toLowerCase();
+      switch (keyword) {
+        case "dosa":
+          window.location.href = "file:///D:/Tech%20ABHI/AnyList/Dosa.html";
+          break;
+        case "biryani":
+          window.location.href = "file:///D:/Tech%20ABHI/AnyList/biryani.html";
+          break;
+          case "gobi":
+          window.location.href = "file:///D:/Tech%20ABHI/AnyList/gobi.html";
+          break;
+        default:
+          alert("Keyword not recognized"); // Or handle differently
+      }
+    }
+  </script>
+
+
+</div>
+</section>    
+<section class="features">
+<h1>Featured Destinations</h1> 
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+    <div class="feature-box">
+    <div class="feature-img">
+    <img src="images/dosa.jpg">
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    </div>
+    <div class="feature-details">
+        <h4>Dosa</h4>
+        <p>Dosa is a popular South Indian dish known for its thin, crispy texture and savory taste. It is a type of fermented crepe made from a batter of rice and urad dal. Dosas are typically served hot and are often enjoyed with a variety of accompaniments such as chutneys, sambar, and spicy potato filling.</p>
+    </div>
+    </div>
+</div>    
+<div class="col-md-4">
+<div class="feature-box">
+    <div class="feature-img">
+    <img src="images/Gobi.jpg">
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    </div>
+    <div class="feature-details">
+        <h4>Gobi</h4>
+        <p>Gobi Manchurian is a delectable Indo-Chinese dish that has become a beloved favorite in Indian cuisine. This savory appetizer or main course features crispy, battered cauliflower florets tossed in a tangy, spicy sauce, offering a perfect balance of flavors and textures.</p>
+    </div>
+    </div>    
+</div>    
+<div class="col-md-4">
+<div class="feature-box">
+    <div class="feature-img">
+    <img src="images/Bri.jpg">
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    </div>
+    <div class="feature-details">
+        <h4>Veg-Biryani</h4>
+        <p>Veg Biryani is a fragrant and flavorful one-pot rice dish that showcases the best of Indian spices and fresh vegetables. This vegetarian version of the classic biryani is perfect for special occasions or a hearty weeknight dinner, offering a delightful medley of textures and tastes.</p>
+    </div>
+    </div>    
+</div>    
+</div>    
+</div>
+</section>
+
+<section class="banner">
+    <div class="banner-highlights">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                <h2>Choose your best grocery for your best dishes</h2>
+                <p>here you get the best recipes with the best grocery list.</p>
+                </div>
+                <div class="col-md-4">
+                <button type="button" class="booking-btn">check here</button>
+                            
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="users-feedback">
+<h1>Users Review</h1> 
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+    <div class="user-review">
+    <p><b>Works great</b><br>
+        Only downside is that you can't purchase the complete version; they only still yearly subscriptions.</p>
+    <h5>Anirudh S.</h5>
+    <small>Delhi</small>
+    </div>
+    <img src="images/user1.jpg">
+</div>    
+<div class="col-md-4">
+<div class="user-review">
+    <p><B>Awesome app!!</B><br>
+        Highly efficient at organising what you want real time. Adding grocery items without opening the app is a great killer function.</p>
+    <h5>Adithya Sharma</h5>
+    <small>Rajasthan</small>
+    </div>
+    <img src="images/user2.jpg">    
+</div>    
+<div class="col-md-4">
+<div class="user-review">
+    <p><b>Great App</b><br>
+        I have been using this app from several years, it’s very handy to use for your business and personal.</p>
+    <h5>Prathima</h5>
+    <small>Karnataka</small>
+    </div>
+    <img src="images/user3.jpg">    
+</div>    
+</div>    
+</div>
+</section>
+<section class="footer">
+<div class="container">
+<div class="row">
+    <div class="col-md-3">
+    <img src="images/hero_logo.png" class="footer-logo">
+    <p>One app for stress-free shopping, cooking, and meal planning.</p>
+    </div>
+    <div class="col-md-3">
+    <h4>Features</h4>
+    <p>Deals & Offers</p>
+    <p>Customer Reviews</p>
+    <p>Cancelatio Policy</p>
+    </div>
+    <div class="col-md-3">
+    <h4>Quick Contact</h4>
+    <p><i class="fa fa-phone-square"></i> +91 7892435613</p>
+    <p><i class="fa fa-envelope"></i> abhi.integralindia@gmail.com</p>
+    <p><i class="fa fa-home"></i> Dattagalli, Mysuru - 570033.</p>
+    </div>
+    <div class="col-md-3">
+    <h4>Follow Us on</h4>
+    <p><i class="fa fa-facebook-official"></i> Facebook</p>
+    <p><i class="fa fa-youtube-play"></i> YouTube</p>
+    <p><i class="fa fa-twitter"></i> Twitter</p>
+    </div>
+</div><hr>
+    <p class="copyright">Made with <i class="fa fa-heart"></i> by Abhilash Hebbar M. U.</p>
+</div>    
+</section>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
